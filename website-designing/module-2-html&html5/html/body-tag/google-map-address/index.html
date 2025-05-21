@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>iframe</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        body 
+        {
+         margin: 0;
+         padding: 0;  
+         overflow-x: hidden; 
+        }
+        #navbar
+        {
+          width: 100%;
+          height: 80px;
+          background-color: #333;
+          padding: 2px;
+          color: white;
+          font-size: 38px;
+        }
+        #navbar ul{
+        top: 0;
+        margin-top: 0;
+        }
+        #navbar ul li 
+        {
+            display: inline-block;
+            padding: 20px 10px;
+        }
+        #navbar ul li a
+        {
+            color: white;
+            text-decoration: none;
+            font-size: 25px;
+        }
+        #frame1
+        { 
+        margin-top: 0% !important;
+        }
+    </style>
+</head>
+<body>
+<div id="navbar">
+    <ul>
+        <li><b>Get all Our office Address</b></li>
+    </ul>
+</div>    
+<iframe src="links.html" width="25%" height="500px" frameborder="0" id="frame1"></iframe>
+<iframe src="rajkot.html" width="74%" height="500px" frameborder="0" name="parent"></iframe>
+</body>
+</html> 
