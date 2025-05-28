@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+<title>Register page</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+<script src='main.js'></script>
+<style>
+body 
+{
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+}
+#register 
+{
+width: 100%;
+height: auto;    
+padding: 35px;
+}
+input,textarea,select
+{
+width: 250px;
+height: auto;
+padding: 4px;    
+}
+input[type="submit"]
+{
+width: 215px;
+height: auto;
+padding: 12px;
+background-color: black;
+color: white;
+border: none;    
+}
+input[type="reset"]
+{
+
+width: 215px;
+height: auto;
+padding: 12px;
+background-color: red;
+color: white;
+border: none;
+}
+
+</style>
+</head>
+<body>
+
+<div id="register">
+<form>
+<table width="100%">
+<tr align="left">
+<th>Name *</th>
+<td><input type="text" placeholder="Name *" required></td>
+</tr>
+<tr align="left">
+<th>Email *</th>
+<td><input type="text" placeholder="Email *" required></td>
+</tr>
+<tr align="left">
+<th>Password *</th>
+<td><input type="password" placeholder="Password *" required></td>
+</tr>
+
+<tr align="left">
+<th>Confirmed Password *</th>
+<td><input type="password" placeholder="Confirmed Password *" required></td>
+</tr>
+
+<tr align="left">
+<th>Gender *</th>
+<td>Male :<input type="radio" name="gender" value="male" style="width: auto; height: auto;">
+Female :<input type="radio" name="gender" value="female" style="width: auto; height: auto;">
+Other :<input type="radio" name="gender" value="other" style="width: auto; height: auto;"></td>
+</tr>
+
+<tr align="left">
+<th>Hobby *</th>
+<td>Cooking:<input type="checkbox" name="hobby" value="cooking" style="width: auto; height: auto;">
+Reading :<input type="checkbox" name="hobby" value="reading" style="width: auto; height: auto;">
+Playing :<input type="checkbox" name="" value="playing" style="width: auto; height: auto;"></td>
+</tr>
+
+<tr align="left">
+<th>Select Language *</th>
+<td>php:<input type="checkbox" name="language" value="php" style="width: auto; height: auto;">
+React :<input type="checkbox" name="language" value="react" style="width: auto; height: auto;">Angular :<input type="checkbox" name="language" value="Angular" style="width: auto; height: auto;"></td>
+</tr>
+
+<tr align="left">
+<th>Phone *</th>
+<td><input type="text" name="phone" placeholder="Phone *" required></td>
+</tr>
+
+<tr align="left">
+<th>Address *</th>
+<td><textarea name="address" placeholder="Address *" required cols="5" rows="6"></textarea></td>
+</tr>
+
+<tr align="left">
+<th>select state *</th>
+<td><select name="state">
+    <option value="0">-select state-</option>
+    <option value="1">Gujrat</option>
+    <option value="2">Mahrastra</option>
+    <option value="3">Rajsthan</option>
+    <option value="4">Uttar pradesh</option>
+    <option value="5">Madhya pradesh</option>
+
+</select></td>
+</tr>
+
+<tr align="left">
+<th>select multiple Location *</th>
+<td><select name="city" size="9" multiple>
+    <option value="0">-select city-</option>
+    <option value="1">Rajkot</option>
+    <option value="2">Ahemdabad</option>
+    <option value="3">Surat</option>
+    <option value="4">Junagad</option>
+    <option value="5">Badodra</option>
+    <option value="6">Mumbai</option>
+    <option value="7">Varansi</option>
+    <option value="8">Jaipur</option>
+    <option value="9">Indore</option>
+
+</select></td>
+</tr>
+
+<tr align="left">
+<th>Upload Photo*</th>
+<td><input type="file" name="photo" placeholder="upload photo *" required multiple></td>
+</tr>
+
+
+<tr align="left">
+<td colspan="2"><input type="submit" name="register" value="Register">
+<input type="reset" name="reset" value="Reset"></td>
+</tr>
+
+</table>
+</form>
+</div>
+
+</body>
+</html>
