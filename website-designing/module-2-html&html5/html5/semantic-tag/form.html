@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <style>
+      #frm {
+        width: 30%;
+        height: auto;
+        margin: auto;
+        padding: 15px;
+        background-color: cornflowerblue;
+        margin-top: 5%;
+      }
+      input[type='text'] {
+        width: 250px;
+        height: auto;
+        padding: 5px;
+      }
+      input[type='submit'] {
+        width: 150px;
+        height: auto;
+        padding: 8px;
+        background-color: blue;
+        color: white;
+        border: none;
+        margin-left: 20%;
+      }
+    </style>
+  </head>
+  <body>
+    <form
+      method="post"
+      action="welcome.html"
+      enctype="multipart/form-data"
+      id="frm"
+      name="frm"
+    >
+      <label for="fname">Firstname *</label>
+      <input type="text" placeholder="FirstName" name="FirstName" required />
+      <br /><br />
+
+      <label for="fname">Lasttname *</label>
+      <input type="text" placeholder="LastName" name="LatName" required />
+      <br /><br />
+
+      <input type="submit" name="addForm" value="SignUp" />
+    </form>
+  </body>
+</html>

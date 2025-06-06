@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>iframe</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        body 
+        {
+         margin: 0;
+         padding: 0;  
+         overflow-x: hidden; 
+        }
+        #navbar
+        {
+          width: 100%;
+          height: auto;
+          background-color: #333;
+          padding: 2px;
+        }
+        #navbar ul{
+        top: 0;
+        margin-top: 0;
+        }
+        #navbar ul li 
+        {
+            display: inline-block;
+            padding: 10px 25px;
+        }
+        #navbar ul li a
+        {
+            color: white;
+            text-decoration: none;
+            font-size: 25px;
+        }
+        #frame1
+        { 
+        margin-top: 0% !important;
+        }
+    </style>
+</head>
+<body>
+<div id="navbar">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Html</a></li>
+        <li><a href="#">Python</a></li>
+        <li><a href="#">Laravel</a></li>
+        <li><a href="#">React js</a></li>
+        <li><a href="#">Angular</a></li>
+        <li><a href="#">DS</a></li>
+        <li><a href="#">Node js</a></li>
+    </ul>
+</div>    
+<iframe src="links.html" width="20%" height="500px" frameborder="0" id="frame1"></iframe>
+<iframe src="html_intro.html" width="79%" height="500px" frameborder="0" name="parent"></iframe>
+</body>
+</html> 
