@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightgray;
+}
+#header {
+  background-color: black;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  color: white;
+  padding: 10px;
+}
