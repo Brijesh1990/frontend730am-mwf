@@ -45,8 +45,8 @@
         <li><a href="">About</a></li>
         <li><a href="">Services</a></li>
         <li><a href="">Portfolio</a></li>
-        <li><a href="">Download CV</a></li>
-        <li><a href="">Contact us</a></li>
+        <li><a href="#download-cv">Download CV</a></li>
+        <li><a href="#contactus">Contact us</a></li>
       </ul>
     </section>
     <!-- portfolio banner section start here -->
@@ -196,7 +196,7 @@
           </tr>
         </table>
       </div>
-      <div class="contact-us">
+      <div class="contact-us" id="contactus">
         <h1>* Contact Us *</h1>
         <hr />
         <div class="our-address">
@@ -219,11 +219,68 @@
             ></iframe>
           </p>
         </div>
-        <div class="contact-form"></div>
+        <div class="contact-form">
+          <form>
+            <fieldset>
+              <legend align="left">Contact us Form</legend>
+              <input type="text" name="name" placeholder="Name *" />
+              <br /><br />
+              <input type="text" name="email" placeholder="Email *" />
+              <br /><br />
+              <input type="text" name="phone" placeholder="Phone *" />
+              <br /><br />
+              <input type="text" name="subject" placeholder="Subject *" />
+              <br /><br />
+              <textarea
+                name="message"
+                placeholder="Message *"
+                rows="5"
+                cols="5"
+              ></textarea>
+              <br /><br />
+              <input type="submit" value="Send" />
+            </fieldset>
+          </form>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+      <!-- download resume -->
+      <div class="download-resume" id="download-cv">
+        <h1>* Download your CV here *</h1>
+        <hr />
+        <b
+          >Click for download
+          <a href="brijesh.pdf" download="download">Download here</a></b
+        >
       </div>
     </section>
     <div class="clearfix"></div>
     <!-- portfolio footer section start here -->
-    <section id="portfolio-footer"></section>
+    <section id="portfolio-footer">
+      <div class="page-links">
+        <ul>
+          <li>
+            <a href=""><h1>Page Links</h1></a>
+          </li>
+          <li><a href="">About</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Portfolio</a></li>
+          <li><a href="">Download CV</a></li>
+          <li><a href="">Contact us</a></li>
+        </ul>
+      </div>
+      <div class="social-contacts">
+        <h1>Like Us On</h1>
+        <span class="fa fa-facebook"></span>
+        <span class="fa fa-twitter"></span>
+        <span class="fa fa-instagram"></span>
+        <span class="fa fa-snapchat"></span>
+        <span class="fa fa-whatsapp"></span>
+      </div>
+      <div class="newsletter">
+        <h1>Subscribe Us</h1>
+        <input type="text" placeholder="subscribe us *" />
+      </div>
+    </section>
   </body>
 </html>

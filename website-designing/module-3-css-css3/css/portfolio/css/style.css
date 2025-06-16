@@ -1,3 +1,10 @@
+@font-face {
+  font-family: jemika;
+  src: url('../fonts/Wasted-Vindey.ttf');
+}
+* {
+  font-family: jemika;
+}
 body {
   margin: 0;
   padding: 0;
@@ -17,24 +24,25 @@ body {
   z-index: 5;
 }
 .call-us {
-  font-size: 20px;
+  font-size: 25px;
   margin-left: 5%;
   padding: 10px;
+  animation: fadeIn 5s infinite;
 }
 .search-box {
-  width: 60%;
+  width: 50%;
   height: auto;
   margin-left: 2%;
   padding: 10px;
 }
 .search-box input {
-  width: 750px;
+  width: 650px;
   height: auto;
   padding: 10px;
 }
 .social-media {
   padding: 10px;
-  font-size: 20px;
+  font-size: 25px;
   letter-spacing: 5px;
 }
 #portfolio-navbar {
@@ -104,7 +112,8 @@ body {
 .our-education,
 .our-experience,
 .personal-details,
-.contact-us {
+.contact-us,
+.download-resume {
   width: 80%;
   height: auto;
   margin: auto;
@@ -114,7 +123,8 @@ body {
 .our-education h1,
 .our-experience h1,
 .personal-details h1,
-.contact-us h1 {
+.contact-us h1,
+.download-resume h1 {
   font-size: 55px;
   text-align: center;
   line-height: 0.5;
@@ -141,23 +151,46 @@ body {
 }
 #portfolio-content hr {
   width: 20%;
-  border: solid 2px;
+  border: solid 2px black;
 }
 .our-address {
-  width: 50%;
+  width: 45%;
   height: auto;
   padding: 20px;
-  float: left;
+  float: left !important;
   font-size: 20px;
 }
 .contact-form {
-  width: 50%;
+  width: 45%;
   height: auto;
   padding: 20px;
-  float: right;
+  float: right !important;
+  margin-top: 5%;
+}
+.contact-form input,
+textarea {
+  width: 350px;
+  height: auto;
+  padding: 8px;
+}
+.contact-form input[type='submit'] {
+  width: 370px;
+  height: auto;
+  padding: 15px;
+  border: none;
+  background-color: black;
+  color: white;
+}
+.contact-form legend {
+  font-size: 30px;
 }
 .clearfix {
   clear: both !important;
+}
+.download-resume b {
+  font-size: 25px;
+  margin-left: 35%;
+  margin-top: 5% !important;
 }
 
 #portfolio-footer {
@@ -165,4 +198,34 @@ body {
   height: auto;
   background-color: black;
   padding: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.page-links ul li {
+  display: block;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 5px 15px;
+}
+.page-links a {
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+}
+.social-contacts,
+.newsletter {
+  width: 40%;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+}
+.social-contacts h1,
+.newsletter h1 {
+  font-size: 35px;
+  text-align: center;
+}
+.newsletter input {
+  width: 350px;
+  height: auto;
+  padding: 8px;
 }
