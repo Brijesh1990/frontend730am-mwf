@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        box-sizing: border-box;
+      }
+      #navbar {
+        width: 100%;
+        height: auto;
+        background-color: black;
+        top: 0;
+      }
+      #navbar nav ul {
+        width: 100%;
+        height: auto;
+        margin-top: 0 !important;
+      }
+      #navbar nav ul li {
+        display: inline-block;
+        padding: 20px 35px;
+      }
+      #navbar nav a {
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+      }
+      .active {
+        background-color: red;
+        padding: 22px 10px;
+      }
+      .dropdown {
+        position: relative;
+      }
+      .dropdown-menu {
+        display: none;
+        position: absolute;
+        background-color: black;
+        color: white;
+      }
+
+      .dropdown-menu li {
+        margin: 4px !important;
+        padding: 4px !important;
+      }
+      .dropdown:hover .dropdown-menu {
+        display: block;
+        padding: 0px 0px !important;
+      }
+    </style>
+  </head>
+  <body>
+    <section id="navbar">
+      <nav>
+        <ul>
+          <li><a href="" class="active">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Feedback</a></li>
+          <li class="dropdown">
+            <a href="">Account</a>
+            <ul class="dropdown-menu">
+              <li><a href="">Login</a></li>
+              <li><a href="">Register</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </section>
+  </body>
+</html>
