@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/font-awesome.css"
+    />
+    <script src="main.js"></script>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+      }
+      #header {
+        width: 100%;
+        height: auto;
+        background-color: white;
+        border-bottom: solid 1px;
+        display: flex;
+        flex-wrap: wrap;
+        top: 0;
+        position: sticky;
+        z-index: 10;
+      }
+      .call {
+        width: 25%;
+        height: auto;
+        padding: 25px;
+        font-size: 30px;
+      }
+      .search {
+        width: 50%;
+        height: auto;
+        padding: 25px;
+        font-size: 30px;
+      }
+      .search input {
+        width: 90%;
+        height: auto;
+        padding: 10px;
+      }
+      .cart {
+        width: 10%;
+        height: auto;
+        padding: 25px;
+        font-size: 25px;
+      }
+      #navbar {
+        width: 100%;
+        height: auto;
+        background-color: black;
+      }
+      #navbar ul {
+        margin-top: 0;
+      }
+      #navbar ul li {
+        display: inline-block;
+        padding: 15px 25px;
+        text-decoration: none;
+        list-style-type: none;
+      }
+      #navbar a {
+        text-decoration: none;
+        color: white;
+      }
+      #slider {
+        width: 90%;
+        height: 400px;
+        background: url('https://essential-blocks.com/wp-content/uploads/2022/04/slider-image9-1.jpg')
+          no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-left: 5%;
+        position: relative;
+      }
+      .slider-txt {
+        width: 60%;
+        height: auto;
+        margin: auto;
+        text-align: center;
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        background-color: rgba(255, 255, 255, 0.3);
+      }
+      .slider-txt h1 {
+        text-transform: uppercase;
+      }
+      #content {
+        width: 90%;
+        height: auto;
+        margin-top: 3%;
+        margin-left: 5%;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .leftsidebar {
+        width: 30%;
+        height: 650px;
+        background-color: lightgray;
+      }
+      .rightsidebar {
+        width: 60%;
+        height: 650px;
+        background-color: antiquewhite;
+        margin-left: 10%;
+      }
+      #footer {
+        width: 100%;
+        height: 100px;
+        background-color: black;
+        margin-top: 2%;
+        position: fixed;
+        bottom: 0;
+      }
+      .whatsapp-icons {
+        width: auto;
+        height: auto;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        left: 92%;
+      }
+      .fa-whatsapp {
+        border-radius: 50%;
+        font-size: 95px;
+        color: green;
+        float: right;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- header -->
+    <section id="header">
+      <div class="call">
+        <b>(+91)-9998003879</b>
+      </div>
+      <div class="search">
+        <input type="text" placeholder="search anythings here......" />
+      </div>
+      <div class="cart">
+        <b>Cart(0)</b>
+      </div>
+    </section>
+    <!-- navbar -->
+    <section id="navbar">
+      <ul>
+        <li><a href="#">Electronics</a></li>
+        <li><a href="#">Home decor</a></li>
+        <li><a href="#">Books</a></li>
+        <li><a href="#">Kids Items</a></li>
+        <li><a href="#">Feedback</a></li>
+      </ul>
+    </section>
+    <!-- slider -->
+    <section id="slider">
+      <div class="slider-txt">
+        <h1>50% off On selected Items for stock clearance</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+          hic deserunt nostrum cum praesentium, optio corporis voluptas iste
+          incidunt modi accusamus maxime reiciendis quasi facilis! Minima ab
+          fugiat amet nulla!
+        </p>
+        <p align="center"><button type="button">Order Now</button></p>
+      </div>
+    </section>
+    <!-- content -->
+    <section id="content">
+      <div class="leftsidebar"></div>
+      <div class="rightsidebar"></div>
+    </section>
+    <!-- footer -->
+    <section id="footer">
+      <div class="whatsapp-icons">
+        <a
+          href="https://api.whatsapp.com/send?phone=+919106396956&text=Hi%20everyone%20please%20completed%20your%20assingments%20and%20assesments%20on%20time%20from%20tops%20careercenter"
+          ><span class="fa fa-whatsapp"></span
+        ></a>
+      </div>
+    </section>
+  </body>
+</html>
