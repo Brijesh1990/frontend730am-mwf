@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @font-face {
   font-family: jemika;
   src: url('../fonts/Wasted-Vindey.ttf');
@@ -230,3 +231,237 @@ textarea {
   height: auto;
   padding: 8px;
 }
+=======
+@font-face {
+  font-family: jemika;
+  src: url('../fonts/Wasted-Vindey.ttf');
+}
+* {
+  font-family: jemika;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  overflow-x: hidden;
+}
+#portfolio-header {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  border-bottom: solid 1px gray;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  top: 0;
+  position: sticky;
+  z-index: 5;
+}
+.call-us {
+  font-size: 25px;
+  margin-left: 5%;
+  padding: 10px;
+  /* animation: fadeIn 5s infinite; */
+  animation: 3s flash infinite;
+}
+.search-box {
+  width: 50%;
+  height: auto;
+  margin-left: 2%;
+  padding: 10px;
+}
+.search-box input {
+  width: 650px;
+  height: auto;
+  padding: 10px;
+}
+.social-media {
+  padding: 10px;
+  font-size: 25px;
+  letter-spacing: 5px;
+}
+#portfolio-navbar {
+  width: 100%;
+  height: auto;
+  background-color: #0d6ce0;
+  padding: 10px;
+}
+#portfolio-navbar ul {
+  margin-left: 15%;
+}
+#portfolio-navbar ul li {
+  display: inline-block;
+  padding: 2px 25px;
+}
+#portfolio-navbar a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+#portfolio-slider {
+  width: 100%;
+  height: auto;
+  background-color: #7bace8;
+  padding: 25px;
+}
+.banner {
+  width: 50%;
+  height: auto;
+  margin: auto;
+}
+.banner img {
+  width: 50%;
+  height: 320px;
+  margin-left: 25%;
+  border-radius: 50%;
+  margin-top: 5%;
+  animation: fadeIn 4s infinite;
+}
+.banner img:hover {
+  transition: 0.5s ease all;
+  width: 52%;
+  height: 335px;
+  border: solid 5px white;
+}
+.banner h1 {
+  font-size: 65px;
+  color: white;
+  line-height: 0.5;
+  text-shadow: 5px 5px black;
+  animation: bounce 2s infinite;
+}
+.banner p {
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  line-height: 0.5;
+}
+#portfolio-content {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  background-color: white;
+  padding: 10px;
+}
+.our-skills,
+.our-education,
+.our-experience,
+.personal-details,
+.contact-us,
+.download-resume {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  margin-top: 8% !important;
+}
+.our-skills h1,
+.our-education h1,
+.our-experience h1,
+.personal-details h1,
+.contact-us h1,
+.download-resume h1 {
+  font-size: 55px;
+  text-align: center;
+  line-height: 0.5;
+}
+.our-education th {
+  background-color: #0d6ce0;
+  color: white;
+  font-size: 25px;
+}
+.our-education td {
+  font-size: 20px;
+}
+.our-experience ol li {
+  font-size: 20px;
+}
+.personal-details th {
+  font-size: 25px;
+  text-align: left;
+}
+.personal-details td {
+  font-size: 20px;
+  text-align: left;
+  margin-left: 20% !important;
+}
+#portfolio-content hr {
+  width: 20%;
+  border: solid 2px black;
+}
+.our-address {
+  width: 45%;
+  height: auto;
+  padding: 20px;
+  float: left !important;
+  font-size: 20px;
+}
+.contact-form {
+  width: 45%;
+  height: auto;
+  padding: 20px;
+  float: right !important;
+  margin-top: 5%;
+}
+.contact-form input,
+textarea {
+  width: 350px;
+  height: auto;
+  padding: 8px;
+}
+.contact-form input[type='submit'] {
+  width: 370px;
+  height: auto;
+  padding: 15px;
+  border: none;
+  background-color: black;
+  color: white;
+}
+.contact-form legend {
+  font-size: 30px;
+}
+.clearfix {
+  clear: both !important;
+}
+.download-resume b {
+  font-size: 25px;
+  margin-left: 35%;
+  margin-top: 5% !important;
+}
+
+#portfolio-footer {
+  width: 100%;
+  height: auto;
+  background-color: black;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.page-links ul li {
+  display: block;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 5px 15px;
+}
+.page-links a {
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+}
+.social-contacts,
+.newsletter {
+  width: 40%;
+  font-size: 35px;
+  color: white;
+  text-align: center;
+}
+.social-contacts h1,
+.newsletter h1 {
+  font-size: 35px;
+  text-align: center;
+}
+.newsletter input {
+  width: 350px;
+  height: auto;
+  padding: 8px;
+}
+>>>>>>> 28d5a300dbf65a7ca0c8c7722fec7f98739966e8

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   margin: 0;
   padding: 0;
@@ -133,3 +134,140 @@ button:hover {
   font-size: 20px;
   transform: skew(0deg, 0deg);
 }
+=======
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  background-color: lightgray;
+}
+#content {
+  width: 70%;
+  height: auto;
+  margin: auto;
+  margin-top: 5%;
+  background-color: white;
+  padding: 25px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.box1 {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+}
+.box2 {
+  width: 200px;
+  height: 200px;
+  background-color: coral;
+}
+.box3 {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+}
+
+.box1:hover {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  transition-delay: 2s !important;
+  transform: rotate(180deg);
+  transition: 0.5s ease all;
+  border-radius: 50%;
+}
+
+.box2:hover {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+  transform: rotate(720deg);
+  transition: 3s ease all;
+  border-radius: 50%;
+}
+.box3:hover {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  transform: rotate(-720deg);
+  transition: 8s ease all;
+  border-radius: 50%;
+}
+
+.box4 {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  transform: rotate(45deg) !important;
+}
+
+.box5 {
+  width: 200px;
+  height: 200px;
+  background-color: coral;
+  transform: rotate(18deg) !important;
+}
+
+.box5 {
+  width: 200px;
+  height: 200px;
+  background-color: coral;
+  transform: rotate(-18deg) !important;
+}
+
+.box6 {
+  width: 200px;
+  height: 200px;
+  background-color: coral;
+  transform: scale(1.2, 0.5);
+}
+
+.box7 {
+  width: 200px;
+  height: 200px;
+  background-color: coral;
+  transform: scale(2.5, 0.5);
+}
+
+.box8 {
+  width: 200px;
+  height: 200px;
+  background-color: coral;
+  transform: skew(10deg, 10deg);
+}
+
+.box9 {
+  width: 200px;
+  height: 200px;
+  background-color: coral;
+  transform: skew(-10deg, -10deg);
+}
+
+button {
+  width: 280px;
+  height: auto;
+  padding: 15px;
+  background-color: black;
+  color: white;
+  border: none;
+  margin-left: 60%;
+  margin-top: 5%;
+  font-size: 20px;
+  transition: 0.2s ease all;
+  transform: skew(2deg, 2deg);
+}
+
+button:hover {
+  width: 280px;
+  height: auto;
+  padding: 15px;
+  background-color: red;
+  color: white;
+  border: none;
+  margin-left: 60%;
+  margin-top: 5%;
+  font-size: 20px;
+  transform: skew(0deg, 0deg);
+}
+>>>>>>> 28d5a300dbf65a7ca0c8c7722fec7f98739966e8

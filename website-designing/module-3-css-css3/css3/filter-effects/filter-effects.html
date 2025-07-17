@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
   <head>
@@ -121,3 +122,128 @@
     </div>
   </body>
 </html>
+=======
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>filter effects</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+    <style>
+      body {
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 0;
+      }
+      .filter-eff1,
+      .filter-eff2,
+      .filter-eff3,
+      .filter-eff4,
+      .filter-eff5 {
+        width: 30%;
+        height: auto;
+        margin: auto;
+        margin-top: 3%;
+      }
+      .filter-eff1 img {
+        width: 100%;
+        height: 380px;
+        filter: grayscale(100%) brightness(0.8) contrast(1.2);
+        transition: filter 0.2s ease-in-out;
+        transition: 3s ease all;
+      }
+
+      .filter-eff1 img:hover {
+        width: 100%;
+        height: 380px;
+        filter: grayscale(0%);
+        border-radius: 50%;
+      }
+
+      .filter-eff2 img {
+        width: 100%;
+        height: 380px;
+        filter: blur(20px);
+        transition: filter 0.2s ease-in-out;
+        transition: 3s ease all;
+      }
+
+      .filter-eff2 img:hover {
+        width: 100%;
+        height: 380px;
+        filter: blur(0px);
+        border-radius: 50%;
+      }
+
+      .filter-eff3 img {
+        width: 100%;
+        height: 380px;
+        filter: brightness(0.2);
+        transition: filter 0.2s ease-in-out;
+        transition: 3s ease all;
+      }
+
+      .filter-eff3 img:hover {
+        width: 100%;
+        height: 380px;
+        filter: brightness(1);
+        border-radius: 50%;
+      }
+
+      .filter-eff4 img {
+        width: 100%;
+        height: 380px;
+        filter: contrast(0.2);
+        transition: filter 0.2s ease-in-out;
+        transition: 3s ease all;
+      }
+
+      .filter-eff4 img:hover {
+        width: 100%;
+        height: 380px;
+        filter: contrast(1);
+        border-radius: 50%;
+      }
+
+      .filter-eff5 img {
+        width: 100%;
+        height: 380px;
+        filter: opacity(0.1);
+        transition: filter 0.2s ease-in-out;
+        transition: 3s ease all;
+      }
+
+      .filter-eff5 img:hover {
+        width: 100%;
+        height: 380px;
+        filter: opacity(1);
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="filter-eff1">
+      <img src="images/amit.jpg" alt="Flower" />
+    </div>
+
+    <div class="filter-eff2">
+      <img src="images/amit.jpg" alt="Flower" />
+    </div>
+
+    <div class="filter-eff3">
+      <img src="images/amit.jpg" alt="Flower" />
+    </div>
+
+    <div class="filter-eff4">
+      <img src="images/amit.jpg" alt="Flower" />
+    </div>
+
+    <div class="filter-eff5">
+      <img src="images/amit.jpg" alt="Flower" />
+    </div>
+  </body>
+</html>
+>>>>>>> 28d5a300dbf65a7ca0c8c7722fec7f98739966e8

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 By installing or using this font, you are agree to the Product Usage Agreement:
 
 1. This font is FOR PERSONAL USE ONLY. NO COMMERCIAL USE ALLOWED!
@@ -12,4 +13,20 @@ www.circlefont.com
 - If you need a custom license please contact us at
 circlefont@gmail.com
 
+=======
+By installing or using this font, you are agree to the Product Usage Agreement:
+
+1. This font is FOR PERSONAL USE ONLY. NO COMMERCIAL USE ALLOWED!
+2. You are REQUIRES A LICENSE for PROMOTIONAL or COMMERCIAL USE.
+3. LINK TO PURCHASE COMMERSIAL LICENSE:
+
+https://circlefont.com/product/jemika/
+
+- Please visit our store for more amazing fonts :
+www.circlefont.com
+
+- If you need a custom license please contact us at
+circlefont@gmail.com
+
+>>>>>>> 28d5a300dbf65a7ca0c8c7722fec7f98739966e8
 Thank you.

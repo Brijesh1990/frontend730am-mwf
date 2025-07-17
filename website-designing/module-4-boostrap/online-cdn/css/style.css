@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   margin: 0;
   padding: 0;
@@ -6,3 +7,13 @@ body {
 .bg-danger {
   background-color: #fc038c !important;
 }
+=======
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightgray;
+}
+.bg-danger {
+  background-color: #fc038c !important;
+}
+>>>>>>> 28d5a300dbf65a7ca0c8c7722fec7f98739966e8
