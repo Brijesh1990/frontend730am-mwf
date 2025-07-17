@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background-color: skyblue;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .container {
+    width: 96% !important;
+    height: auto;
+    margin: auto;
+  }
+  .border-start {
+    border: none !important;
+  }
+  .form {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+}
