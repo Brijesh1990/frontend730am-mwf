@@ -1,0 +1,26 @@
+/* samples app of resturents 
+https://foodielandweb.vercel.app/
+*/
+:root {
+  --bg-white: #ffffff;
+  --bg-darkgreen: #0a6c6d;
+  --bg-green: #147200;
+  --bg-danger: #ff0000;
+  --bg-black: #000000;
+  --darkred: #ba2025;
+}
+@font-face {
+  font-family: roboto-reg;
+  src: url('../fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+  font-family: roboto-bold;
+  src: url('../fonts/Roboto-Bold.ttf');
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
