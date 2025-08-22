@@ -1,0 +1,693 @@
+:root {
+--font-size-900:40px;
+--font-size-850:38px;
+--font-size-800:36px;
+--font-size-750:32px;
+--font-size-700:30px;
+--font-size-650:28px;
+--font-size-600:24px;
+--font-size-550:22px;
+--font-size-500:20px;
+--font-size-450:18px;
+--font-size-400:16px;
+--font-size-350:16px;
+--font-size-300:16px;
+--font-size-250:14px;
+--font-size-200:12px;
+--font-size-150:10px;
+--line-height-900:32px;
+--line-height-850:31px;
+--line-height-800:32px;
+--line-height-750:29px;
+--line-height-700:36px;
+--line-height-650:34px;
+--line-height-600:29px;
+--line-height-550:29px;
+--line-height-500:26px;
+--line-height-450:23px;
+--line-height-400:21px;
+--line-height-350:23px;
+--line-height-300:24px;
+--line-height-250:20px;
+--line-height-200:17px;
+--line-height-150:15px;
+--letter-spacing-100:0
+}
+@media (min-width:1200px) {
+:root {
+--font-size-900:68px;
+--font-size-850:64px;
+--font-size-800:60px;
+--font-size-750:56px;
+--font-size-700:48px;
+--font-size-650:44px;
+--font-size-600:40px;
+--font-size-550:36px;
+--font-size-500:32px;
+--font-size-450:28px;
+--font-size-400:24px;
+--font-size-350:20px;
+--font-size-300:18px;
+--font-size-250:16px;
+--font-size-200:14px;
+--font-size-150:12px;
+--line-height-900:68px;
+--line-height-850:64px;
+--line-height-800:66px;
+--line-height-750:62px;
+--line-height-700:53px;
+--line-height-650:62px;
+--line-height-600:52px;
+--line-height-550:47px;
+--line-height-500:45px;
+--line-height-450:39px;
+--line-height-400:34px;
+--line-height-350:28px;
+--line-height-300:27px;
+--line-height-250:24px;
+--line-height-200:21px;
+--line-height-150:18px
+}
+}
+:root {
+--yellow-0:#fffdfa;
+--yellow-50:#fff8eb;
+--yellow-100:#ffebc4;
+--yellow-200:#ffde9e;
+--yellow-300:#fdd177;
+--yellow-400:#f7c44d;
+--yellow-500:#f4be34;
+--yellow-600:#dba818;
+--yellow-700:#ab7f00;
+--green-0:#f6fbf3;
+--green-50:#e3f4dc;
+--green-100:#cfebc5;
+--green-200:#adde9f;
+--green-300:#8ad079;
+--green-400:#64c253;
+--green-500:#4dbb3e;
+--green-600:#37a82b;
+--green-700:#008400;
+--grey-0:#fafafa;
+--grey-50:#f5f5f5;
+--grey-100:#ebebeb;
+--grey-200:#d6d6d6;
+--grey-300:#b0b0b0;
+--grey-400:#8e8e8f;
+--grey-500:#717272;
+--grey-600:#59595a;
+--grey-700:#414242;
+--grey-800:#262626;
+--grey-900:#0f0f10;
+--sky-blue-0:#f5faff;
+--sky-blue-50:#e5f3ff;
+--sky-blue-100:#bde5ff;
+--sky-blue-200:#8ad0ff;
+--sky-blue-300:#57bcff;
+--sky-blue-400:#24a8ff;
+--sky-blue-500:#0090f0;
+--sky-blue-600:#0071bc;
+--sky-blue-700:#0059a3;
+--sky-blue-800:#003457;
+--sky-blue-900:#001929;
+--orange-0:#fef4ec;
+--orange-50:#fce7d6;
+--orange-100:#facfae;
+--orange-200:#f7b785;
+--orange-300:#f49e5c;
+--orange-400:#f28634;
+--orange-500:#ef6e0b;
+--orange-600:#d4620a;
+--orange-700:#ba5609;
+--orange-800:#9f4907;
+--orange-900:#853d06;
+--persian-blue-50:#e7e7ff;
+--persian-blue-100:#b8b8ff;
+--persian-blue-200:#9494ff;
+--persian-blue-300:#6e6eff;
+--persian-blue-400:#5757ff;
+--persian-blue-500:#4242ff;
+--persian-blue-600:#3838e8;
+--persian-blue-700:#3030c9;
+--persian-blue-800:#2323a8;
+--persian-blue-900:#181875;
+--persian-blue-1000:#000059;
+--base-black:#0f0f10;
+--base-white:#fff;
+--white-alpha-0:hsla(0,0%,100%,.02);
+--white-alpha-50:hsla(0,0%,100%,.05);
+--white-alpha-100:hsla(0,0%,100%,.16);
+--white-alpha-200:hsla(0,0%,100%,.26);
+--white-alpha-300:hsla(0,0%,100%,.36);
+--white-alpha-400:hsla(0,0%,100%,.47);
+--white-alpha-500:hsla(0,0%,100%,.59);
+--white-alpha-600:hsla(0,0%,100%,.69);
+--white-alpha-700:hsla(0,0%,100%,.79);
+--white-alpha-800:hsla(0,0%,100%,.89);
+--white-alpha-900:#fff;
+--grey-alpha-0:rgba(15,15,16,.02);
+--grey-alpha-50:rgba(15,15,16,.05);
+--grey-alpha-100:rgba(15,15,16,.16);
+--grey-alpha-200:rgba(15,15,16,.26);
+--grey-alpha-300:rgba(15,15,16,.36);
+--grey-alpha-400:rgba(15,15,16,.47);
+--grey-alpha-500:rgba(15,15,16,.59);
+--grey-alpha-600:rgba(15,15,16,.69);
+--grey-alpha-700:rgba(15,15,16,.79);
+--grey-alpha-800:rgba(15,15,16,.89);
+--grey-alpha-900:#0f0f10;
+--crimson-0:#fffafb;
+--crimson-50:#fff1f3;
+--crimson-100:#ffe4e8;
+--crimson-200:#fecdd6;
+--crimson-300:#fea3b4;
+--crimson-400:#fd6f8e;
+--crimson-500:#f63d68;
+--crimson-600:#e31b54;
+--crimson-700:#c01048;
+--magenta-0:#fef6fc;
+--magenta-50:#fcedf8;
+--magenta-100:#fad6f0;
+--magenta-200:#fcceee;
+--magenta-300:#faa7e0;
+--magenta-400:#f670c7;
+--magenta-500:#ee46bc;
+--magenta-600:#dd2590;
+--magenta-700:#c11574;
+--purple-0:#fafaff;
+--purple-50:#f4f3ff;
+--purple-100:#ebe9fe;
+--purple-200:#d9d6fe;
+--purple-300:#bdb4fe;
+--purple-400:#9b8afb;
+--purple-500:#7a5af8;
+--purple-600:#6938ef;
+--purple-700:#5925dc;
+--teal-0:#effbfa;
+--teal-50:#daf5f3;
+--teal-100:#ace5e0;
+--teal-200:#7ed9d1;
+--teal-300:#2cc7ba;
+--teal-400:#00948a;
+--teal-500:#0c6a64;
+--teal-600:#0c534f;
+--teal-700:#033c39;
+--red-0:#fdf6f5;
+--red-50:#fceae8;
+--red-100:#f2c1bb;
+--red-200:#e49890;
+--red-300:#d36e67;
+--red-400:#bf4240;
+--red-500:#b4272e;
+--red-600:#a81825;
+--red-700:#8f0015;
+--blue-50:#eaf2ff;
+--blue-100:#cde0fc;
+--blue-200:#9bc1f9;
+--blue-300:#68a1f6;
+--blue-400:#3682f3;
+--blue-500:#0463f0;
+--blue-600:#234296;
+--blue-700:#10264b;
+--greenish-cyan-50:#ebfffb;
+--greenish-cyan-100:#c2fff4;
+--greenish-cyan-200:#adfff0;
+--greenish-cyan-300:#70ffe5;
+--greenish-cyan-400:#33ffda;
+--greenish-cyan-500:#00cca7;
+--greenish-cyan-600:#00805a;
+--greenish-cyan-700:#004c27;
+--teal-nbfc-50:#d5fbfa;
+--teal-nbfc-100:#abf6f5;
+--teal-nbfc-200:#96f4f3;
+--teal-nbfc-300:#56edeb;
+--teal-nbfc-400:#2ce9e6;
+--teal-nbfc-500:#00b6b3;
+--teal-nbfc-600:#008380;
+--teal-nbfc-700:#00504d;
+--medium-turquoise-50:#d5fbfa;
+--medium-turquoise-100:#b7edf5;
+--medium-turquoise-200:#94e3f1;
+--medium-turquoise-300:#70daec;
+--medium-turquoise-400:#4cd1e7;
+--medium-turquoise-500:#199eb4;
+--medium-turquoise-600:#006b81;
+--medium-turquoise-700:#00384e;
+--orange-bright-50:#fff1e7;
+--orange-bright-100:#fed4b5;
+--orange-bright-200:#febf91;
+--orange-bright-300:#fea15e;
+--orange-bright-400:#fd8f3f;
+--orange-bright-500:#fd730f;
+--orange-bright-600:#e6690e;
+--orange-bright-700:#b4520b;
+--orange-bright-800:#8b3f08;
+--orange-bright-900:#6a3006;
+--green-bright-50:#e6f6ea;
+--green-bright-100:#b0e4bd;
+--green-bright-300:#8ad79d;
+--green-bright-400:#34b955;
+--green-bright-500:#01a72a;
+--green-bright-600:#019826;
+--green-bright-700:#01771e;
+--green-bright-800:#015c17;
+--green-bright-900:#004612;
+--blue-bright-50:#e9f0ff;
+--blue-bright-100:#bad2ff;
+--blue-bright-200:#99bcff;
+--blue-bright-300:#6a9dfe;
+--blue-bright-400:#4d8afe;
+--blue-bright-500:#216dfe;
+--blue-bright-600:#1e63e7;
+--blue-bright-700:#174db4;
+--blue-bright-800:#123c8c;
+--blue-bright-900:#0e2e6b;
+--gold-0:#faf3e3;
+--gold-50:#f4e7c7;
+--gold-100:#f2e3bd;
+--gold-200:#f1dfb4;
+--gold-300:#efdbaa;
+--gold-400:#edd7a1;
+--gold-500:#d5c191;
+--gold-600:#beac81;
+--gold-700:#a69671;
+--gold-800:#8e8161;
+--gold-900:#776c51;
+--corner-radius-0:0px;
+--corner-radius-4:4px;
+--corner-radius-8:8px;
+--corner-radius-12:12px;
+--corner-radius-16:16px;
+--corner-radius-full:9999px;
+--spacing-0:0px;
+--spacing-2:2px;
+--spacing-4:4px;
+--spacing-6:6px;
+--spacing-8:8px;
+--spacing-10:10px;
+--spacing-12:12px;
+--size-8:8px;
+--size-24:24px;
+--size-32:32px;
+--size-40:40px;
+--size-48:48px;
+--size-44:44px;
+--size-38:38px;
+--icon-size-12:12px;
+--icon-size-16:16px;
+--icon-size-20:20px;
+--icon-size-24:24px;
+--icon-size-28:28px;
+--icon-size-32:32px;
+--icon-size-40:40px;
+--icon-size-48:48px;
+--size-34:34px;
+--icon-size-14:14px;
+--spacing-16:16px;
+--size-28:28px;
+--size-22:22px;
+--size-20:20px;
+--spacing-24:24px;
+--size-16:16px;
+--size-36:36px;
+--size-58:58px;
+--spacing-20:20px;
+--spacing-28:28px;
+--spacing-32:32px;
+--spacing-36:36px;
+--spacing-48:48px;
+--stroke-none:0px;
+--stroke-1:1px;
+--font-size-xs:10px;
+--font-size-sm:12px;
+--font-size-base:14px;
+--font-size-lg:16px;
+--font-size-xl:18px;
+--font-size-2xl:20px;
+--font-size-3xl:24px;
+--font-size-4xl:28px;
+--font-size-5xl:32px;
+--font-size-6xl:36px;
+--font-line-height-xs:12px;
+--font-line-height-sm:14px;
+--font-line-height-base:16px;
+--font-line-height-lg:18px;
+--font-line-height-xl:20px;
+--font-line-height-2xl:22px;
+--font-line-height-3xl:24px;
+--font-line-height-4xl:28px;
+--font-line-height-5xl:34px;
+--font-line-height-6xl-small:38px;
+--font-line-height-6xl:44px;
+--font-letter-spacing-lg:8px;
+--font-letter-spacing-xl:4px;
+--font-letter-spacing-base:2px;
+--font-letter-spacing-sm:0px;
+--font-letter-spacing-xs:-2px;
+--bold:700;
+--semibold:600;
+--medium:500;
+--regular:400;
+--shadow-base:0px 0px 16px 0px rgba(0,0,0,.08)
+}
+* {
+font-family:var(--main-font);
+box-sizing:border-box
+}
+body 
+{
+margin: 0;
+padding: 0;
+overflow-x: hidden;    
+}
+#car24-header
+{
+width: 100%;
+max-width: 100%;
+min-width: 100%;
+height: auto;
+min-height: auto;
+max-height: auto;
+top: 0 !important;
+position: sticky !important;
+z-index: 5 !important;
+background-color: white !important;
+}
+.navbar-links
+{
+width: 100%;
+height: auto;    
+}
+.navbar-links li 
+{
+display: inline-block;
+padding: 5px 12px;
+}
+.navbar-links a 
+{
+color: var(--base-black);
+text-decoration: none;
+list-style-type: none;
+text-transform: capitalize;
+font-size: var(--font-line-height-lg);    
+}
+.dropdown:hover .dropdown-menu 
+{
+display: block !important;
+}
+.dropdown-menu a 
+{
+text-decoration: none;
+list-style-type: none;
+color: white !important;    
+}
+.navbar-brand img
+{
+width: 40% !important;
+height: auto;
+}
+#car24-banner
+{
+width: 100%;
+max-width: 100%;
+min-width: 100%;
+height: 80vh;
+min-height: 80vh;
+max-height: 80vh;
+background: linear-gradient(rgba(10,0,0,0.5),rgba(10,0,0,0.8)), url('../images/banner.webp') no-repeat;
+background-position: center;
+background-size: cover;
+padding: 80px 100px !important;
+}
+.car24-banner-txt img 
+{
+width: 120px !important;
+height: auto;
+}
+.car24-banner-txt h1
+{
+color: white;    
+font-size: 35px !important;
+letter-spacing: 2px;
+}
+.car24-banner-txt h2 
+{
+color: white;
+font-size: 48px !important;    
+letter-spacing: 2px;
+}
+.care24-better-drives
+{
+width: 100%;
+height: 350px;
+border-radius: 20px !important;
+}
+.car24-services ul li 
+{
+display: inline-block !important;
+padding: 0px 28px;
+justify-items: center;
+text-align: center;
+}
+.car24-services img 
+{
+width: 55px;
+height: 45px;    
+}
+#car24-banner-pages
+{
+width: 100%;
+max-width: 100%;
+min-width: 100%;
+height: 40vh;
+min-height: 40vh;
+max-height: 40vh;
+background: linear-gradient(rgba(10,0,0,0.5),rgba(10,0,0,0.8)), url('../images/banner.webp') no-repeat;
+background-position: center;
+background-size: cover;
+padding: 80px 100px !important;
+}
+#car24-content
+{
+width: 100%;
+max-width: 100%;
+min-width: 100%;
+height: auto;
+min-height: auto;
+max-height: auto;
+margin-top: 15% !important;
+}
+.car24-our-services,
+.car24-car-categories
+
+{
+width: 100%;
+height: auto;   
+}
+.car24-our-services h6,
+.car24-car-categories h6,
+.car24-bycategory h6,
+.car24-download-app h6
+{
+font-size: 30px;
+}
+.car24-our-services h6::after,
+.car24-car-categories h6::after,
+.car24-category h6::after,
+.car24-bycategory h6::after,
+.car24-download-app h6::after
+{
+width: 100%;
+height: 1px;
+content: "";
+background: linear-gradient(90deg,#1193ff,hsla(0,0%,100%,0));
+border-radius: 0;
+flex: 1 1;
+border: solid 1px #1193ff;
+justify-content: center;
+align-items: center;
+column-gap: 56px;
+margin-top: 2% !important;
+margin-left: 0.8%;
+
+}
+.happy-customers
+{
+width: 100%;
+height: auto;
+position: relative;
+}
+.happy-customers img 
+{
+width: 100%;
+height: 400px;
+border-radius: 10px;
+}
+.happy-customers-txt
+{
+width: 90%;    
+position: absolute;
+bottom: 15px;
+margin: 0 auto;
+left: 10px;
+right: 10px;
+color: white;
+background: rgba(0, 0, 0, 0.5);
+padding: 10px;
+border-radius: 5px;
+}
+.car24-bycategory
+{
+width: 100%;
+height: auto;
+min-height: auto;
+max-height: auto;   
+margin-top: 5% !important;
+background: -webkit-linear-gradient(top,#f4f8ff,#ace5e0);
+background: -o-linear-gradient(top,#f4f8ff,#ace5e0);
+background: linear-gradient(to bottom,#f4f8ff,#ace5e0);
+padding: 20px;
+border-radius: 20px;
+}
+.accordion
+{
+width: 100%;
+height: auto;
+border-radius: 25px;
+margin-top: 2%;
+display: flex;
+flex-wrap: wrap;
+}
+.accordion-item
+{
+width: 100%;
+margin: 10px;
+height: auto;
+}
+.accordion-body ul li 
+{
+display: inline-block;
+margin: 5px;
+padding: 15px 20px;
+background-color: lightgray;
+border-radius: 10px;
+}
+.car24-bycategory-list
+{
+width: 100%;
+padding: 12px 15px;
+border: none;
+cursor: pointer;
+background-color: transparent;
+border-radius: 15px !important;
+}
+
+.car24-download-app
+{
+width: 100%;
+height: auto;
+padding: 20px;
+border-radius: 20px;
+background: white;
+}
+.car24-about-us
+{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background: white;
+    margin-top: -10% !important;
+}
+.car24-contact-us ul li 
+{
+    display: block;
+    text-decoration: none;
+    list-style: none;
+}
+#car24-footer
+{
+width: 100%;
+max-width: 100%;
+min-width: 100%;
+height: auto;
+min-height: auto;
+max-height: auto;
+margin-top: 8% !important;
+}
+#car24-footer ul li 
+{
+position: relative !important;
+padding: 5px 0px;
+list-style: none;
+display: block;
+}
+#car24-footer a 
+{
+position: relative !important;
+text-decoration: none;
+color: black;
+}
+#car24-call-us
+{
+position: relative !important; 
+
+}
+.call-us-modal
+{
+margin-left: 30%;
+margin-top: 4% !important; 
+}
+.login-bg
+{
+width: 50%;
+height: auto;
+background: linear-gradient(rgba(10,0,0,0.5),rgba(20,0,0,0.5)),url('../images/login-bg.png') no-repeat;
+background-size: cover;
+background-position: center;    
+}
+#car24-login
+{
+width: auto !important;
+height: auto !important;    
+}
+
+
+/* mobile screen media query */
+@media only screen and (min-width:320px) and (max-width:480px)
+{
+.navbar-links
+{
+width: 100%;
+height: auto;    
+}
+.navbar-links li 
+{
+display: block;
+padding: 10px 0px;
+
+}   
+.navbar-brand img
+{
+width: 40% !important;
+height: auto;
+margin: 0 !important;
+padding: 0 !important;
+margin-left: 0 !important;    
+}
+.call-us,.account 
+{
+margin: 0 !important;
+padding: 0 !important;    
+}
+.modal-dialog
+{
+max-width:90% !important;
+height: auto; 
+margin: auto !important;
+margin-top: 13% !important;
+}
+.login-bg
+{
+display: none !important;
+}
+}  
