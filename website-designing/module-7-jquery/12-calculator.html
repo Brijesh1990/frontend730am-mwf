@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        .app
+        {
+         width: 50%;
+         height: auto;
+         margin: auto;
+         padding: 20px;
+         border: solid 1px;  
+         margin-top: 5%; 
+        }
+        .app button 
+        {
+         width: 300px;
+         height: auto;
+         margin: 5px;
+         padding: 5px;
+         border: none;
+         background-color: black;
+         color: white;
+         font-size: 20px;   
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="app">
+    <p id="demo"></p>
+    <button type="button" id="btn1">Additions</button>
+    <button type="button" id="btn2">Substraction</button>
+    <button type="button" id="btn3">Multiplication</button>
+    <button type="button" id="btn4">Divisions</button>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script>
+    $(document).ready(function(){
+        $("#btn1").click(function(){
+            var a=parseInt(prompt('Enter a values :'));
+            var b=parseInt(prompt('Enter b values :'));
+            var c=a+b;
+            document.getElementById("demo").innerHTML="The additions is :"+c;    
+        
+        });
+
+        $("#btn2").click(function(){
+            var a=parseInt(prompt('Enter a values :'));
+            var b=parseInt(prompt('Enter b values :'));
+            var c=a-b;
+            document.getElementById("demo").innerHTML="The substractions is :"+c;    
+        
+        });
+
+        $("#btn3").click(function(){
+            var a=parseInt(prompt('Enter a values :'));
+            var b=parseInt(prompt('Enter b values :'));
+            var c=a*b;
+            document.getElementById("demo").innerHTML="The multiplications is :"+c;    
+        
+        });
+        $("#btn4").click(function(){
+            var a=parseInt(prompt('Enter a values :'));
+            var b=parseInt(prompt('Enter b values :'));
+            var c=a/b;
+            document.getElementById("demo").innerHTML="The divisions is :"+c;    
+        
+        })
+    })
+
+    </script>
+</body>
+</html>
